@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pugazhenthi C S | Cybersecurity Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Orbitron:wght@500;700&family=Rajdhani:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      --text: #e6edf3;
+      --primary: #58a6ff;
+      --highlight: #00c6ff;
+      --card: rgba(0, 0, 0, 0.6);
+      --glass: rgba(255, 255, 255, 0.08);
+      --border: rgba(255, 255, 255, 0.1);
+      --font-heading: 'Orbitron', sans-serif;
+      --font-body: 'Rajdhani', sans-serif;
+      --radius: 14px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: var(--bg);
+      background-attachment: fixed;
+      color: var(--text);
+      font-family: var(--font-body);
+      line-height: 1.8;
+    }
+
+    nav {
+      background: var(--glass);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+      backdrop-filter: blur(12px);
+      z-index: 1000;
+    }
+
+    nav a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+      transition: 0.3s ease;
+    }
+
+    nav a:hover {
+      color: white;
+      text-shadow: 0 0 8px var(--highlight);
+    }
+
+    header {
+      text-align: center;
+      padding: 5rem 2rem 3rem;
+    }
+
+    header h1 {
+      font-family: var(--font-heading);
+      font-size: 3.2rem;
+      color: var(--highlight);
+      margin-bottom: 1rem;
+    }
+
+    header p {
+      font-size: 1.3rem;
+      max-width: 720px;
+      margin: 0 auto;
+      opacity: 0.9;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: 3rem auto;
+      padding: 2rem;
+      background: var(--glass);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: 0 0 25px rgba(0, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+    }
+
+    h2 {
+      font-family: var(--font-heading);
+      font-size: 1.8rem;
+      color: var(--primary);
+      border-bottom: 2px solid var(--primary);
+      padding-bottom: 0.4rem;
+      margin-bottom: 1.2rem;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+    }
+
+    li {
+      margin-bottom: 0.6rem;
+    }
+
+    a {
+      color: var(--highlight);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .project {
+      background: var(--card);
+      padding: 1.2rem;
+      margin-bottom: 2rem;
+      border-left: 5px solid var(--highlight);
+      border-radius: var(--radius);
+      transition: 0.3s ease;
+    }
+
+    .project:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0 15px var(--highlight);
+    }
+
+    .resume-button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.8rem 1.8rem;
+      background: var(--highlight);
+      color: #000;
+      font-weight: 700;
+      border-radius: var(--radius);
+      text-decoration: none;
+      box-shadow: 0 0 10px var(--highlight);
+      transition: 0.3s ease;
+    }
+
+    .resume-button:hover {
+      background: #ffffff;
+      color: var(--highlight);
+    }
+
+    #scrollTopBtn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      font-size: 18px;
+      background: var(--highlight);
+      color: #000;
+      border: none;
+      padding: 12px 15px;
+      border-radius: 50%;
+      cursor: pointer;
+      box-shadow: 0 0 12px var(--highlight);
+    }
+
+    footer {
+      text-align: center;
+      padding: 3rem 1rem;
+      font-size: 0.9rem;
+      color: #ddd;
+      background: rgba(0,0,0,0.3);
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body></body>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#resume">Resume</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <header>
+    <h1>Pugazhenthi C S</h1>
+    <p>Cybersecurity Enthusiast | Ethical Hacker | Web App Defender</p>
+  </header>
+
+  <section id="about">
+    <h2>🧑 About Me</h2>
+    <p>Cybersecurity enthusiast with strong hands-on experience in ethical hacking, web application security, and network defense. Proficient with tools like Nmap, Burp Suite, Wireshark, and Metasploit. Completed real-world projects and internships involving vulnerability assessment, penetration testing, and scripting. Adept at identifying vulnerabilities and proposing effective security measures.</p>
+  </section>
+
+  <section id="skills">
+    <h2>🛠️ Technical Skills</h2>
+    <ul>
+      <li>Tools & Frameworks – Nmap, Burp Suite, Wireshark, Metasploit, Nikto, Hydra, Gobuster, SQLmap</li>
+      <li>Web Application Security – OWASP Top 10, XSS, SQLi, CSRF, IDOR, session handling</li>
+      <li>Network Security – OSI model, TCP/IP, ARP/DNS spoofing, DHCP starvation</li>
+      <li>Vulnerability Assessment – Nessus, OpenVAS, CVSS scoring, reporting</li>
+      <li>Operating Systems – Kali Linux, Ubuntu, Windows, Parrot OS</li>
+      <li>Scripting & Automation – Python, Bash (custom scanning & payload tools)</li>
+      <li>Threat Intelligence – theHarvester, Recon-ng, Shodan, GeoSpy</li>
+      <li>Forensics – log analysis, hash validation, data recovery basics</li>
+      <li>Compliance & Risk – ISO/IEC 27001, NIST, ISMS concepts</li>
+      <li>Version Control – Git</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>📁 Projects</h2>
+
+    <div class="project">
+      <h3>💉 SQL Injection Analysis – Web App Penetration Testing</h3>
+      <ul>
+        <li>Discovered SQL Injection vulnerability in a custom-built login form</li>
+        <li>Performed login bypass using <code>' OR '1'='1</code> payload</li>
+        <li>Used SQLMap to extract backend database structure and data</li>
+        <li>Captured HTTP request/response using Burp Suite</li>
+        <li>Documented findings and suggested remediation steps</li>
+        <li><strong>🔗 GitHub:</strong> <a href="https://github.com/PUGAZHENTHI1020/Web-Application-Penetration-Testing-SQL-Injection-Analysis.git" target="_blank">View Project</a></li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <h3>📊 Fraud Detection Using Machine Learning</h3>
+      <ul>
+        <li>Final year project to detect fraudulent transactions using classification algorithms</li>
+        <li>Used Python, Pandas, and Scikit-learn with preprocessing and feature engineering</li>
+        <li>Trained with Random Forest and Decision Tree models, achieving over 90% accuracy</li>
+        <li>Visualized results using ROC curve, confusion matrix, and precision-recall graphs</li>
+        <li>Recommended integration into financial platforms for real-time fraud flagging</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="resume">
+    <h2>📄 Resume</h2>
+    <a href="https://drive.google.com/file/d/1iwK2fuUtSgJ46vPz8QBw35pBNYIRwj7y/view?usp=sharing" class="resume-button" target="_blank">📄 View Resume</a>
+  </section>
+
+  <section id="certificates">
+    <h2>📜 Certificates</h2>
+    <ul>
+      <li><a href="https://drive.google.com/file/d/1KV3uAKvBl1NKOUOnq25yDXKIVg0ftx-U/view?usp=sharing">compTIA security+ Certificate - compTIA</a></li>
+      <li><a href="https://drive.google.com/file/d/1FDKXnjzZtms4fZaxg956V0es2jGEjFF_/view?usp=sharing">Cybersecurity - FITA</a></li>
+      <li><a href="https://drive.google.com/file/d/1vNgHjkTzPf0lEVE_ApqW84qkGJNrP7HA/view?usp=sharing">Defensive Security Operation - Cybrary</a></li>
+      <li><a href="https://drive.google.com/file/d/1QKLejhkhEi1VSd6hKYTvKRSY7TkGg8cv/view?usp=sharing">Wireless Network Hacking - Cybrary</a></li>
+      <li><a href="https://drive.google.com/file/d/1fjwmJtWqV4h16cnOkPJwndXPrZ1JQGWW/view?usp=sharing">Web Hacking - Cybrary</a></li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>🔗 Let’s connect</h2>
+    <p>
+      <a href="https://www.linkedin.com/in/pugazhenthi-cybersecurity/" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/PUGAZHENTHI1020" target="_blank">GitHub</a> |
+      <a href="https://www.naukri.com/mnjuser/profile?id=&altresid" target="_blank">Naukri</a>
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Pugazhenthi C S | All Rights Reserved
+  </footer>
+
+  <button onclick="topFunction()" id="scrollTopBtn" title="Go to top">⬆️</button>
+
+  <script>
+    window.onscroll = () => {
+      document.getElementById("scrollTopBtn").style.display = window.scrollY > 300 ? "block" : "none";
+    };
+    function topFunction() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
